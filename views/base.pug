@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        block head
+            meta(charset='utf-8')
+            meta(name='viewport' content='width=device-width , initial-scale=1.0')
+            link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:300,300i,700')
+            link(rel='stylesheet' href='/css/style.css')
+            link(rel='shortcut icon' type='image/png' href='/img/favicon.png')
+            script(src='https://js.stripe.com/v3/')
+            title Natours | #{title}
+    body
+        // THE HEADER
+        include _header
+
+        // THE MAIN
+        main.main
+            block content
+                h1 this is the placeholder
+
+        // THE FOOTER
+        include _footer
+        script(src='/js/stripe.js')
+        //script(src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js')
+        script(src='https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js')
+        script(src='/js/login.js',type='module')
+        script(src='/js/updateData.js',type='module')
