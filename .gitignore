@@ -1,2 +1,6 @@
 node_modules/
-*.env
+*.env!/.prettierrc
+!/dataModel.png
+!/dev-data/
+!/.vscode/
+.idea
