@@ -7,6 +7,7 @@ const morgan = require('morgan');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
+const compression = require('compression');
 const tourRoute = require('./routers/tourRoute');
 const userRoute = require('./routers/userRoute');
 const reviewRoute = require('./routers/reviewRoute');
@@ -63,7 +64,7 @@ app.use((req, res, next) => {
   // console.log(req.cookies);
   next();
 });
-
+app.use(compression());
 if (process.env.NODE_ENV === 'development') app.use(morgan('dev'));
 //  GET /api/v1/tours 200 4.945 ms - 8797
 /////////////////////////////////////////////

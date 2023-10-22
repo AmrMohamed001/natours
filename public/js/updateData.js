@@ -10,7 +10,7 @@ const updateMe = async (data, type) => {
     const end = type === 'password' ? 'update-password' : 'updateme';
     const res = await axios({
       method: 'PATCH',
-      url: `http://127.0.0.1:8080/api/v1/users/${end}`,
+      url: `/api/v1/users/${end}`,
       data,
     });
     if (res.data.status === 'success')
