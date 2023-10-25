@@ -98,7 +98,7 @@
         - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-booking">Delete
           Bookings
           endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#Checkout-booking">Checkout
+        - <a href = "https://github. com/AmrMohamed001/natours#checkout-booking">Checkout
             endpoint</a>
         
 
