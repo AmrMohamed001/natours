@@ -24,6 +24,92 @@ This app can be found at [https://natours-app-5pcf.onrender.com/](https://natour
 The documentation of the API for this app can be found at [https://documenter.getpostman.com/view/13036021/TWDfEZ3P](https://documenter.getpostman.com/view/13036021/TWDfEZ3P)
 The API and the app itself are hosted on the same server.
 
+
+## Tabel of content
+- <a href= "https://github.com/AmrMohamed001/natours#overview">Overview</a>
+- <a href= "https://github.com/AmrMohamed001/natours#purpose">Purpose</a>
+- <a href= "https://github.com/AmrMohamed001/natours#demonstration">Demonstration</a>
+- <a href= "https://github.com/AmrMohamed001/natours#main-tools-and-technologies-used">Main Tools And Technologies Used</a>
+- <a href= "https://github.com/AmrMohamed001/natours#key-feature">Key feature</a>
+- <a href= "https://github.com/AmrMohamed001/natours#installation">Installation</a>
+- <a href= "https://github.com/AmrMohamed001/natours#schemas">Schemas</a>
+
+    - <a href= "https://github.com/AmrMohamed001/natours#user-schema">User
+      schema</a>
+    - <a href= "https://github.com/AmrMohamed001/natours#tour-schema">Tour
+      schema</a>
+    - <a href= "https://github.com/AmrMohamed001/natours#review-schema">Review
+      shema</a>
+    - <a href= "https://github.com/AmrMohamed001/natours#booking-schema">Booking
+      shema</a>
+
+- <a href= "https://github.com/AmrMohamed001/natours#endpoints">Endpoints</a>
+    - <a href= "https://github.com/AmrMohamed001/natours#auth-endpoints">Auth endpoints</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#sign-up-endpoint">Sign up endpoint</a>
+
+        - <a href = "https://github.com/AmrMohamed001/natours#log-in-endpoint">Log in endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#fortgot-password-endpoint">Forgot password endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#reset-password-endpoint">Reset password endpoint</a>
+    - <a href = "https://github.com/AmrMohamed001/natours#user-endpoints">User endpoints</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#create-new-user-endpoint">Create new user endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-all-users">Get all user endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-specific-user">Get a specific user endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#update-specific-user">Update a specific user endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#update-specific-user-password">Update a specific user password endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#delete-specific-user">Delete a specific user endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-logged-user-data">Get logged user data endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#updated-logged-user-data">Update logged user data endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#update-logged-user-password">Update logged user password end point</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#delete-logged-user">Delete logged user endpoint</a>
+    - <a href = "https://github. com/AmrMohamed001/natours#tours-endpoints">Tours endpoints</a>
+        - <a href = "https://github. com/AmrMohamed001/natours#create-a-new-tour">Create new Tour
+          endpoint</a>
+        - <a href = "https://github. com/AmrMohamed001/natours#get-all-tours">Get
+          all tours endpoint</a>
+        - <a href = "https://github. com/AmrMohamed001/natours#get-a-specific-tour">Get a specific tour
+          endpoint</a>
+        - <a href = "https://github. com/AmrMohamed001/natours#update-specific-tour">Update a specific
+          tour
+          endpoint</a>
+        - <a href = "https://github./AmrMohamed001/natours#delete-specific-tour">Delete a specifc tour
+          endpoint</a>
+        - <a href = "https://github. /AmrMohamed001/natours#alising">Alising
+          endpoint</a>
+        - <a href = "https://github. /AmrMohamed001/natours#get-status">Get
+          status endpoint</a>
+        - <a href = "https://github. /AmrMohamed001/natours#monthly-plan">Monthly plan
+          endpoint</a>
+        - <a href = "https://github. /AmrMohamed001/natours#get-within-distance">Get tour within
+          Distance</a>
+        - <a href = "https://github. /AmrMohamed001/natours#delete-specific-tour">Distance from point to tours</a>
+
+    - <a href = "https://github.com/AmrMohamed001/natours#review-endpoint">Reviews endpoints</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#add-a-new-review">Add a new review endpoint</a>
+        - <a href = "https://github. com/AmrMohamed001/natours#get-all-reviews">Get all reviews endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-a-specific-review">Get a specific review endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-review">Update a specific review endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-review">Delete a specific review endpoint</a>
+
+    - <a href = "https://github.com/AmrMohamed001/natours#bookings-endpoints">Bookings endpoints</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-all-bookings">Get
+          Bookings
+          endpoint</a>
+
+        - <a href = "https://github. com/AmrMohamed001/natours#add-booking">add
+          Booking
+          endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-a-specific-booking">Get
+          Booking
+          endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-booking">Update
+          Booking
+          endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-booking">Delete
+          Bookings
+          endpoint</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#checkout-booking">Checkout
+          endpoint</a>
+
 ## Overview
 
 This web application allows it's users to book tour vacations.
@@ -84,86 +170,6 @@ This app is a pet project, built for the express purpose of honing my skills in 
 - SENDGRID (Sending actual emails to the users in production).
 
 
-## Tabel of content
-- <a href= "https://github.com/AmrMohamed001/natours#key-feature">Key feature</a>
-- <a href= "https://github.com/AmrMohamed001/natours#installation">Installation</a>
-- <a href= "https://github.com/AmrMohamed001/natours#schemas">Schemas</a>
-
-    - <a href= "https://github.com/AmrMohamed001/natours#user-schema">User 
-      schema</a>
-    - <a href= "https://github.com/AmrMohamed001/natours#tour-schema">Tour 
-      schema</a>
-    - <a href= "https://github.com/AmrMohamed001/natours#review-schema">Review 
-      shema</a>
-    - <a href= "https://github.com/AmrMohamed001/natours#booking-schema">Booking
-        shema</a>
-    
-- <a href= "https://github.com/AmrMohamed001/natours#endpoints">Endpoints</a>
-    - <a href= "https://github.com/AmrMohamed001/natours#auth-endpoints">Auth endpoints</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#sign-up-endpoint">Sign up endpoint</a>
-
-        - <a href = "https://github.com/AmrMohamed001/natours#log-in-endpoint">Log in endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#fortgot-password-endpoint">Forgot password endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#reset-password-endpoint">Reset password endpoint</a>
-    - <a href = "https://github.com/AmrMohamed001/natours#user-endpoints">User endpoints</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#create-new-user-endpoint">Create new user endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-all-users">Get all user endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-specific-user">Get a specific user endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#update-specific-user">Update a specific user endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#update-specific-user-password">Update a specific user password endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#delete-specific-user">Delete a specific user endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-logged-user-data">Get logged user data endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#updated-logged-user-data">Update logged user data endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#update-logged-user-password">Update logged user password end point</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#delete-logged-user">Delete logged user endpoint</a>
-    - <a href = "https://github. com/AmrMohamed001/natours#tours-endpoints">Tours endpoints</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#create-a-new-tour">Create new Tour 
-          endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#get-all-tours">Get 
-          all tours endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#get-a-specific-tour">Get a specific tour 
-          endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#update-specific-tour">Update a specific 
-          tour 
-          endpoint</a>
-        - <a href = "https://github./AmrMohamed001/natours#delete-specific-tour">Delete a specifc tour
-          endpoint</a>
-        - <a href = "https://github. /AmrMohamed001/natours#alising">Alising 
-          endpoint</a>
-        - <a href = "https://github. /AmrMohamed001/natours#get-status">Get 
-          status endpoint</a>
-        - <a href = "https://github. /AmrMohamed001/natours#monthly-plan">Monthly plan 
-          endpoint</a>
-        - <a href = "https://github. /AmrMohamed001/natours#get-within-distance">Get tour within 
-          Distance</a>
-        - <a href = "https://github. /AmrMohamed001/natours#delete-specific-tour">Distance from point to tours</a>
-
-    - <a href = "https://github.com/AmrMohamed001/natours#review-endpoint">Reviews endpoints</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#add-a-new-review">Add a new review endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#get-all-reviews">Get all reviews endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-a-specific-review">Get a specific review endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-review">Update a specific review endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-review">Delete a specific review endpoint</a>
-    
-    - <a href = "https://github.com/AmrMohamed001/natours#bookings-endpoints">Bookings endpoints</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-all-bookings">Get 
-          Bookings 
-          endpoint</a>
-        
-        - <a href = "https://github. com/AmrMohamed001/natours#add-booking">add
-          Booking
-          endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#get-a-specific-booking">Get
-          Booking
-          endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-booking">Update
-          Booking
-          endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-booking">Delete
-          Bookings
-          endpoint</a>
-        - <a href = "https://github.com/AmrMohamed001/natours#checkout-booking">Checkout
-            endpoint</a>
         
 
 ## Key feature
