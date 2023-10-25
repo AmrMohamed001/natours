@@ -1,6 +1,4 @@
-# Natours App
-# RESTful E-Commerce API
-
+# Natours Application
 ![Static Badge](https://img.shields.io/badge/Language-JavaScript-yellow)
 ![Static Badge](https://img.shields.io/badge/18.13.0-Node.Js-green)
 ![Static Badge](https://img.shields.io/badge/4.18.2-Express.Js-blue)
@@ -19,6 +17,72 @@
 ![Static Badge](https://img.shields.io/badge/1.6.6-slugify-red)
 ![Static Badge](https://img.shields.io/badge/0.32.5-sharp-red)
 ![Static Badge](https://img.shields.io/badge/13.6.0-stripe-blue)
+
+This full stack web application is specially designed for persons who love travelling and going on tour vacations.
+
+This app can be found at [https://natours-app-5pcf.onrender.com/](https://natours-app-5pcf.onrender.com/).
+The documentation of the API for this app can be found at [https://documenter.getpostman.com/view/13036021/TWDfEZ3P](https://documenter.getpostman.com/view/13036021/TWDfEZ3P)
+The API and the app itself are hosted on the same server.
+
+## Overview
+
+This web application allows it's users to book tour vacations.
+
+A tour refers to a series of locations, specially picked to excite the adventurous spirit of the individual who books it.
+
+A visiting user who has not yet created an account on the app can simply see all the current tours as well as detailed information about each tour.
+
+Once signed up or logged in, they can then book any tour of their choice.
+
+Users can write only one review for any tour they book.
+
+## Purpose
+
+This app is a pet project, built for the express purpose of honing my skills in full stack web development.
+
+## Demonstration
+
+#### Home Page :
+
+<!-- ![natoursHomePage](https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Home.png | width=640) -->
+<img src="https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Home.png" width="640">
+
+#### Tour Details :
+
+![tourOverview](https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Booked-Tour.gif)
+
+#### Payment Process :
+
+<!-- ![paymentprocess](https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Payment.png | width=640) -->
+<img src="https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Payment.png" width="640">
+
+#### LOGIN PAGE :
+
+<!-- ![login](https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Login.png | width=640) -->
+<img src="https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Login.png" width="640">
+
+#### User Profile :
+
+<!-- ![userprofile](https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Admin.png | width=640) -->
+<img src="https://github.com/NachiketaDhal/Natours-API/blob/master/public/Screenshots/Admin.png" width="640">
+
+## Main Tools And Technologies Used
+
+- HTML (Create the structure and content of the web pages).
+- CSS (Styling of the web pages).
+- PUG (Template engine for generating the web pages dynamically).
+- JAVASCRIPT (Interactivity, as well as making requests to the API from the client-side).
+- NODE (Run JavaScript code on the server-side).
+- EXPRESS (Node framework, meant to simplify the process of building complex server-side applications).
+- MONGODB (Database for data persistence).
+- MONGOOSE (Interacting with mongodb).
+- MAPBOX (Displaying the different locations of each tour).
+- STRIPE (Making payments on the app).
+- JSON WEB TOKEN (Authenticating users)
+- NODEMAILER (Sending emails to users of the app)
+- MAILTRAP (Trapping the emails we send in our development environment, so they don't actually get sent to the user's email address)
+- SENDGRID (Sending actual emails to the users in production).
+
 
 ## Tabel of content
 - <a href= "https://github.com/AmrMohamed001/natours#key-feature">Key feature</a>
