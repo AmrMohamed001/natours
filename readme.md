@@ -81,24 +81,24 @@
         - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-review">Update a specific review endpoint</a>
         - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-review">Delete a specific review endpoint</a>
     
-    - <a href = "https://github. com/AmrMohamed001/natours#bookings-endpoints">Bookings endpoints</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#get-bookings">Get 
+    - <a href = "https://github.com/AmrMohamed001/natours#bookings-endpoints">Bookings endpoints</a>
+        - <a href = "https://github.com/AmrMohamed001/natours#get-all-bookings">Get 
           Bookings 
           endpoint</a>
         
         - <a href = "https://github. com/AmrMohamed001/natours#add-booking">add
           Booking
           endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#get-booking">Get
+        - <a href = "https://github.com/AmrMohamed001/natours#get-a-specific-booking">Get
           Booking
           endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#update-booking">Update
+        - <a href = "https://github.com/AmrMohamed001/natours#update-a-specific-booking">Update
           Booking
           endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#delete-booking">Delete
+        - <a href = "https://github.com/AmrMohamed001/natours#delete-a-specific-booking">Delete
           Bookings
           endpoint</a>
-        - <a href = "https://github. com/AmrMohamed001/natours#checkout">Checkout
+        - <a href = "https://github. com/AmrMohamed001/natours#Checkout-booking">Checkout
             endpoint</a>
         
 
@@ -752,8 +752,14 @@ Request body example:
 
 
 #### Delete a specific booking
-
 ```
 DELETE /api/v1/booking/:id
 ```
 - Allowed to: only admins.
+
+#### Checkout booking
+
+```
+GET /api/v1/booking/checkout-session/:TOURID
+```
+
